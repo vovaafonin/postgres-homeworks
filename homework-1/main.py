@@ -5,7 +5,6 @@ from config import CASTOMERS_DATA, EMPLOYEES_DATA, ORDERS_DATA
 
 
 def main():
-    """"""
     with psycopg2.connect(
             host="localhost",
             database="north",
